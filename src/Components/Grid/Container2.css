@@ -1,0 +1,18 @@
+.container2{
+    position: relative;
+    width:100vw;
+    padding:1rem 3.5rem;
+    margin:4rem 0;
+}
+.grid{
+    width:90%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(3 ,minmax(15rem,12%));
+    gap:6rem;
+}
+.grid .card:hover{
+    -webkit-box-shadow: -9px 5px 39px -10px rgba(0,0,0,0.67);
+    -moz-box-shadow: -9px 5px 39px -10px rgba(0,0,0,0.67);
+    box-shadow: -9px 5px 39px -10px rgba(0,0,0,0.67);
+}

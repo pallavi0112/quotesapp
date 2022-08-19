@@ -1,0 +1,105 @@
+.footer__area{
+    position: relative;
+    width: 100vw;
+    height:50vh;
+    margin-top:2rem;
+    margin-bottom: 0%;
+    background-color: #e01d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__area .footer-container{
+    width:70%;
+    position: relative;
+    margin: 0.2rem auto ;
+}
+.footer__area .footer-container .top-container{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.footer__area .footer-container .top-container .nav-link li{
+    display:inline-block;
+    margin: 0.4rem 0.6rem;
+    padding:0.3rem;
+}
+.footer__area .footer-container .top-container .nav-link li a{
+   font-size:1.2rem;
+}
+.footer__area .top-container .social__links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    margin-top:15px;
+}
+.footer__area .top-container .social__links a{
+    font-size:.9rem;
+    color:#fff;
+    background: rgb(42, 39, 39);
+    border-radius:6px;
+    padding:4px 8px;
+    margin:0 8px;
+}
+
+.footer__area .footer-container .top-container .log-in p{
+    text-align: center;
+    font-size:1.1rem;
+    color:rgb(36, 35, 35);
+
+}
+
+.footer__area .footer-container .top-container .log-in p{
+        text-align: center;
+        font-size:1.1rem;
+        color:rgb(36, 35, 35);
+        margin-bottom:1rem;
+
+}
+.footer__area  .subscribe__form div{
+    position:relative;
+    width:15rem;
+    margin : 0 auto;
+    text-align: center;
+    background:#fff;
+    border-radius:0.7rem;
+    border:0.1rem solid #e01d5d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.2rem;
+}
+.footer__area .subscribe__form input{
+    font-size:0.8rem;
+    color:#000;
+    padding:0.4rem;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+.footer__area  .subscribe__form button{
+    padding:0.5rem 1.3rem;
+    background:#e01d5d;
+    border:1px solid #e01d5d;
+    border-radius:7px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.footer__area  .subscribe__form button:hover{
+    background:#e01d5d;
+}
+.footer__area .footer-container .bottom-container{
+    text-align: center;
+    font-size:0.9rem;
+    padding:10px 0;
+    margin-top:2rem;
+    border-top: 1px solid #e6b8c8;
+}
+

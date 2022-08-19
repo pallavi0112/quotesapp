@@ -1,0 +1,13 @@
+.card{
+    border-radius:1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+.card .imgBx{
+    width:100%;
+    height:20rem;
+    object-fit:cover;
+}
+.card .imgBx img{
+    width:100%;
+    height:100%;
+}

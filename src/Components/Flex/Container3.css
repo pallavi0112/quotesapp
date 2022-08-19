@@ -1,0 +1,48 @@
+.container3{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 3rem;
+    margin:3rem 0;
+}
+.flex{
+    width:80%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:content;
+    gap:5rem;
+}
+.flex div:nth-child(1){
+    flex:1;
+}
+.flex div:nth-child(2){
+    flex:1;
+    margin-top:5rem;
+}
+.flex .card .imgBx{
+    height:20rem;
+    border-radius:1.2rem;
+}
+.flex .card .imgBx img{
+    border-radius:1.2rem;
+}
+.container4 .flex2{
+    gap:0rem;
+    padding:1.5rem;
+    border:0.2rem dashed #e01d5d;
+}
+.container4 .flex2 div:nth-child(2){
+    margin-top: 0%;
+}
+.flex2 .card .imgBx{
+    border-radius:0;
+    padding:2rem;
+}
+.flex2 .card .imgBx img{
+    border-radius:0;
+}
+.flex2 div:nth-child(2) img{
+  transform: scaleX(0.6);
+}

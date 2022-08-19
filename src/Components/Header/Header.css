@@ -1,0 +1,69 @@
+.header {
+  position: relative;
+  width: 100%;
+  height:80vh;
+  background: #e01d5d;
+  padding: 0px 3rem;
+  margin-bottom:6rem;
+}
+.header::after {
+  position: absolute;
+  content: "";
+  left: 0%;
+  bottom:0%;
+  width: 100%;
+  height:30%;
+  background-image: url("../../Images/header.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  object-fit: fill;
+}
+.container .searchBx {
+  position: relative;
+  width: 20rem;
+  margin: 2rem auto 0;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding:0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -9px 5px 39px -10px rgba(0,0,0,0.67);
+  -moz-box-shadow: -9px 5px 39px -10px rgba(0,0,0,0.67);
+  box-shadow: -9px 5px 39px -10px rgba(0,0,0,0.67);
+}
+.container .searchBx input {
+    padding:0.6rem 2rem;
+    width: 80%;
+    border:none;
+    outline: none;
+    margin-left:1.2rem;
+    color: #e01d5d;
+    font-size:0.8rem;
+    font-weight:550; 
+    border-radius: 1.5rem;  
+}
+.container .searchBx input::placeholder{
+    color:#e01d5d;
+    font-weight:bold;
+}
+.container .searchBx i{
+    color: #e01d5d;
+    margin-left:1rem;
+    font-size:1.2rem;
+}
+.container .imgBx {
+  position: relative;
+  width:20rem;
+  margin-top:-2rem ;
+  margin-left:2rem;
+  z-index:2;
+  transition: all 0.2s ease-in-out;
+}
+.container .imgBx img {
+  width: 100%;
+}
+.container .imgBx:hover{
+     transform: scale(1.1);
+}
