@@ -1,16 +1,19 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 html {
   font-size: calc(15px + 0.390625vw);
 }
-a{
-  text-decoration:none;
-  color:#fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
-li{
-  list-style:none;
+li {
+  list-style: none;
 }
+

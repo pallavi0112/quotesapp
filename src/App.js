@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
         <Header/>
-        <Quotes/>
+        {/* <Quotes/> */}
         <Container2 Data={Data1}/>
         <Container3 Data={Data2}/>
         <Container4 Data={Data4}/>

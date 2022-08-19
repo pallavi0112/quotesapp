@@ -1,13 +1,14 @@
 .footer__area{
     position: relative;
     width: 100vw;
-    height:50vh;
+    height:auto;
     margin-top:2rem;
     margin-bottom: 0%;
     background-color: #e01d5d;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:0.7rem;
 }
 
 .footer__area .footer-container{

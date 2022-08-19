@@ -46,3 +46,38 @@
 .flex2 div:nth-child(2) img{
   transform: scaleX(0.6);
 }
+
+@media (max-width:768px) {
+    .container3{
+        padding:1rem 2rem;
+    }
+    .container4 .flex2{
+        gap:0rem;
+        padding:0.5rem;
+        border:0.2rem dashed #e01d5d;
+    }
+    .flex2 .card .imgBx{
+        padding:1rem;
+    }
+    .flex{
+        width:85%;
+        gap:4rem;
+    }
+}
+@media (max-width:662px) {
+    .container3{
+        padding:1rem 1.5rem;
+    }
+    .container4 .flex2{
+        gap:0rem;
+        padding:0.3rem;
+        border:0.2rem dashed #e01d5d;
+    }
+    .flex2 .card .imgBx{
+        padding:1rem;
+    }
+    .flex{
+        width:87%;
+        gap:3rem;
+    }
+}
