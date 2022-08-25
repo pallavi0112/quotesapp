@@ -9,20 +9,9 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.logo {
-  padding: 0.2rem;
-  border: 0.2rem solid #fff;
-}
-.logo div {
-  padding: 0.2rem 0.8rem;
-  border: 0.2rem solid #fff;
-}
-.logo div span {
-  font-size: 1.4rem;
-}
-.logo i {
-  transform: scale(0.8);
-  margin-left: 0.2rem;
+.logo img{
+  width:120px;
+  height:100px;
 }
 .menu-icon i{
   color:#fff;

@@ -1,13 +1,12 @@
 import React from 'react'
 import './NavBar.css';
+import logo from '../../Images/logo.png'
 function NavBar() {
   return (
     <div className='nav-bar'>
       <nav>
         <div className='logo'>
-          <div>
-            <a href='/'><span>Nice</span><i class="fa fa-circle"></i><br /><span>Quote</span></a>
-          </div>
+          <img src={logo} alt="logo"/>
         </div>
         {/* <div className='menu-icon'>
         <i class="fa fa-bars"></i>

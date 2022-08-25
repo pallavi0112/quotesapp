@@ -5,6 +5,7 @@
     margin-top:2rem;
     margin-bottom: 0%;
     background-color: #e01d5d;
+    border-top-left-radius:30%;
     display: flex;
     justify-content: center;
     align-items: center;
