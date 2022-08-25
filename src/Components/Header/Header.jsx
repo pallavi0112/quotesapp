@@ -26,12 +26,9 @@ function Header() {
           .catch(err => {
             console.log(err);
           })
-        }while(Quotes.match(Inputval)){
-             console.log(Quotes)
-        }
-  
+        }while(Quotes.match(Inputval))
+      alert(Quotes)
     }
-    console.log('Matched: ' +Quotes)
   }
   const getValue = (e) =>{
       setInputval(e.target.value)     

@@ -40,8 +40,8 @@
 }
 .footer__area .top-container .social__links a{
     font-size:.9rem;
-    color:#fff;
-    background: rgb(42, 39, 39);
+    color:#000;
+    background:#fff;
     border-radius:6px;
     padding:4px 8px;
     margin:0 8px;

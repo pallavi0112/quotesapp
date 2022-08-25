@@ -18,7 +18,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div class="log-in">
-                            <p>Get the latest quotes of  your favorit author</p>
+                            <p>Get the latest quotes of  your favourit author</p>
                             <form id="form" class="subscribe__form">
                                 <div>
                                 <input type="email" id="email" name="EMAIL" placeholder="E-mail Address" autocomplete="off" />
